@@ -7,3 +7,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED true)
 set(CMAKE_CXX_STANDARD 23)
 
 add_subdirectory(src)
+
+option(BUILD_DEMO "Build demo code snippets." ON)
+if (BUILD_DEMO)
+  add_subdirectory(demo)
+endif()

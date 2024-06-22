@@ -54,3 +54,19 @@ After the database is created, call the tokenize() method.
 
 For specific examples of how to use the API,
 check the demo directory.
+
+For testing the lexer, you may wish to
+check out the test-lexer binary located
+in the src/test directory.
+The binary takes as input definitions
+to populate the argument database,
+test input for lexing, and expected
+output to test against.
+
+# Tests
+
+To run the tests available for this project, run:
+
+```console
+make -C build test
+```
