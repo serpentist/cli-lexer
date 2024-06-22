@@ -9,7 +9,7 @@
  * and provide a meaningful error message,
  * if the input is incorrect.
  *
- * The following input should be accepted,
+ * The following inputs should be accepted,
  * and are all equivalent:
  *
  * ./demo/nodectrl -s --list 1,2
