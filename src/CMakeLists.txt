@@ -15,3 +15,5 @@ endif()
 
 add_library(gnu-lexer lexer.cpp)
 add_subdirectory(test)
+
+install(TARGETS gnu-lexer DESTINATION lib)
