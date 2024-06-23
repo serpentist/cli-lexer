@@ -6,6 +6,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS true)
 set(CMAKE_CXX_STANDARD_REQUIRED true)
 set(CMAKE_CXX_STANDARD 23)
 
+include_directories(include)
 add_subdirectory(src)
 
 option(BUILD_DEMO "Build demo code snippets." ON)
